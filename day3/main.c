@@ -1,36 +1,37 @@
-//#include <stdio.h>
-//int main()
-//{
-//    FILE *file =fopen("example.txt","r+");
- //   if(file == NULL){
-  //    printf("ERROR OPENING FILE FOR WRITING.\n");
- //       return 1;
-  //  }
- //   fseek(file,0,SEEK_SET);
- //  fprintf(file,"UPDATED CONTENT: HELLO,UPDATED WORLD!\n");
-//    fclose(file);
- //   printf("DATA UPDATED IN THE FILE SUCCESSFULLY.\n");
- //   return 0;
-//}
-#include<stdio.h>
-int main()
-{
-    FILE *file;
-    char type[10];
-    float amount;
-    file=fopen("bank.txt","a");
-    if(file==NULL)
-    {
-        printf("error opening file!");
-        return 1;
+
+
+
+#include <stdio.h>
+#include <string.h>
+
+void rev(char* s) {
+
+
+    int l = 0;
+    int r = strlen(s) - 1;
+    char t;
+
+
+    while (l < r) {
+
+
+        t = s[l];
+        s[l] = s[r];
+        s[r] = t;
+
+
+        l++;
+        r--;
     }
-    printf("credit or debit");
-    scanf("%s",&type);
-    printf("enter amount:");
-    scanf("%f",&amount);
-     fprintf(file,"%s:%2f\n",type,amount);
-     fclose(file);
-     printf("transaction success.\n");
-     return 0;
 }
 
+int main() {
+    char s[100];
+printf("enter a string:");
+scanf("%s",&s);
+
+    rev(s);
+
+    printf("%s", s);
+    return 0;
+}

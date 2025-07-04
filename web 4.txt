@@ -1,0 +1,23 @@
+ Design HTML webpage with following CSS specifications: Show any two-font family through text, decorated the text through plain, underline, overline and line through, display the head text with shadow in red color
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Font</title>
+	<style>
+		h1{ text-shadow: #ff0000 12px -12px 2px;}
+	</style>
+</head>
+
+<body>
+<h1> head with text shadow</h1>
+<p style="font-family:cursive"> different font family</p>
+<p style="font-family:monospace"> different font family</p>
+<p style="text-decoration:none">working of defferent text decoration property</p>
+<p style="text-decoration:underline">working of defferent text decoration property</p>
+<p style="text-decoration:overline">working of defferent text decoration property</p>
+<p style="text-decoration:line-through">working of defferent text decoration property</p>
+
+</body>
+
+</html>

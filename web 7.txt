@@ -1,0 +1,21 @@
+Design and develop a web page that has a background image and repeat the image horizontally
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("sunset.jpg");
+background-repeat: repeat-x;
+
+}
+h1,p{color:white;}
+</style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<p>This page has an image as the background!</p>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Develop a webpage to demonstrate the different color variation such as rgb, rgba, hsl, hsla and hexadecimal values
+
+<!DOCTYPE html>
+<html>
+<body>
+<p> color variation</p>
+
+<h1 style="background-color:rgb(0, 255,0);">rgb values</h1>
+<h1 style="background-color:#ff6347;">hexadecimal values</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl</h1>
+<p> opacity trsansperancy effect in an html doc</p>
+<h2 style="background-color:rgba(0, 255,0, 0.2);">rgba values</h2>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla values</h1>
+<p> opacity 0.5 means the element will be 50% transparent</p> 
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+Design and develop a webpage to demonstrate INPUT elements such as username, password, radio button, checkbox, submit button and reset button
+
+<html>
+<head>
+<title>input elements</title>
+</head>
+<body>
+<form>
+<fieldset>
+      <legend>demonstration of input elements</legend>
+<p>
+      <label>Username : <input type="text" /></label>
+</p>
+<p>
+      <label>Password : <input type="password" /></label>
+</p>
+<p>
+Male<input type="radio" name="gender" value="male" />
+Female<input type="radio" name="gender" value="female" /> </p>
+<h2>Choose Language using checkbox</h2>
+      <ul style="list-style-type:none;">
+      <li><input type="checkbox" name="language" value="hindi" />Hindi</li>
+      <li><input type="checkbox" name="language" value="english" />English</li>
+      <li><input type="checkbox" name="language" value="sanskrite" />Sanskrit</li>
+    </ul>
+
+<br/>
+<p>
+       <button type="submit" >Submit</button>
+       <button type="reset" >reset</button>
+    </p>
+
+</fieldset>
+</form>
+</body>
+</html>
+
